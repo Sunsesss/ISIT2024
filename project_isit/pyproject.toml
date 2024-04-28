@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "project-isit"
+version = "0.1.0"
+description = ""
+authors = ["Sergey Polikarpov <Midaass@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.1"
+uvicorn = "^0.29.0"
+pydantic = "^2.7.0"
+httpx = "^0.27.0"
+beautifulsoup4 = "^4.12.3"
+selenium = "^4.20.0"
+requests = "^2.31.0"
+image = "^1.5.33"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
