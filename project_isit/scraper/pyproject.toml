@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "parser"
+version = "0.1.0"
+description = ""
+authors = ["Polikarpov Sergay 451"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+httpx = "^0.23.0"
+beautifulsoup4 = "^4.11.1"
